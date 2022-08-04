@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="app.js"></script>
     <script
       src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"
@@ -21,11 +22,11 @@
           </figure>
           <ul class="nav__wrapper--right">
             <div class="dropdown">
-                    <button class="nav__language">
+                    <button class="nav__language" onclick="toggleLanguage()">
                       English <i class="fas fa-caret-down"></i>
                     </button>
                 <ul class="nav__language--menu">
-                    <li class="nav__language--list active">English</li>
+                    <li class="nav__language--list">English</li>
                     <li class="nav__language--list">Chinese</li>
                     <li class="nav__language--list">Malay</li>
                     <li class="nav__language--list">Indian</li>
@@ -165,5 +166,63 @@
             </div>
         </div>
     </section>
+    <div class="section__line"></div>
+    <footer>
+      <div class="row">
+        <div class="container">
+          <div class="footer__top">
+            <p class="footer__para">Questions? Call 800 852 6334</p>
+          </div>
+          <ul class="footer__list">
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">FAQ</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Help Centre</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Account</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Media Centre</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Investor Relations</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Jobs</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Ways to Watch</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Terms of Use</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Privacy</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Cookie Preferences</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Corporate Information</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Contact Us</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Speed Test</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Legal Notices</a>
+            </li>
+            <li class="footer__link">
+              <a class="footer__link-description link__hover-effect link__hover-effect--black" href="">Only on Netflix</a>
+            </li>
+          </ul>
+          <div class="footer__copyright">Copyright &copy; 2022 Netflix Singapore</div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
